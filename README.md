@@ -3,6 +3,12 @@
 <h1>
 Antes de mais nada, criar uma pasta do projeto chamada passaro_urbano e fazer o git clone dentro dele
 </h1>
+<h2>
+Instalar esses componentes
+npm install bootstrap
+npm install jquery --save
+npm install tether --save
+</h2>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
 
