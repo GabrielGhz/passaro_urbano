@@ -1,5 +1,9 @@
 # PassaroUrbanoApp
 
+<h1>
+Antes de mais nada, criar uma pasta do projeto chamada passaro_urbano e fazer o git clone dentro dele
+</h1>
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
 
 ## Development server
