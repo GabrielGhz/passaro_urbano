@@ -1,7 +1,7 @@
 import { Oferta } from "./shared/oferta.model";
 
 export class OfertaService {
-    
+     
     public ofertas: Array<Oferta> = [
             {
                 id: 1,
@@ -57,7 +57,17 @@ export class OfertaService {
      * getOfertas
      */
     public getOfertas(): Array<Oferta> {
-        return this.ofertas;
-        
+        return this.ofertas;   
+    }
+
+    public getOfertas2(): Promise<Oferta[]> {
+        return new Promise((resolve, reject) => {
+            let ok = false
+            if (ok) {
+                resolve (this.ofertas)
+            } else {
+                reject({ codigo_erro: 404, mensagem_erro: 'Servidor não encontrado' })
+            }
+        })
     }
 }
